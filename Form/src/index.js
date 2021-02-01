@@ -1,11 +1,9 @@
-// Import the react and reactDOM libraries 
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-
-// create a react component
 
 class App extends React.Component{
 
@@ -30,7 +28,7 @@ class App extends React.Component{
         //         alert("Invalid Year! ");
 
         //     }
-        // }
+        // }// Not necessary 
 
         this.setState({[nam]:val});
 
@@ -90,7 +88,6 @@ class App extends React.Component{
 
 
 
-// Take the react component and show it on the screen 
 
 ReactDOM.render(
 
